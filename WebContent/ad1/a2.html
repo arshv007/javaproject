@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset="ISO-8859-1">
+<title>Product List</title>
+</head>
+<body>
+<div id="wrapper">
+
+       <div id="heading">
+            <h2>Shopping Store Management</h2>
+       </div>
+    </div>
+    
+    <div id="container">
+    <div id="content">
+    
+    <form action="add-product.jsp">
+    <input type="submit" value="Add Product" class="add-product-button">
+    </form>
+   
+   <!-- add a search box -->
+    <form action="ProductController" method="GET">
+    <input type="hidden" name="command" value="SEARCH" />
+    Search Product: <input type="text" name="theSearchName" />
+    <input type="submit" value="Search" class="add-product-button" />    
+    </form>
+   
+   <table>
+    <tr>
+    <th>Product Name</th>
+    <th>Quantity</th>
+    <th>Price</th>
+    <th>Product Category</th>
+    <th>Date Of Manufacture</th>
+    <th>Date Of Expiry</th>
+    <th>Action</th>
+    </tr>
+    
+    <c:forEach var="tempProduct" items="${PRODUCT_LIST}">
+    
+    <c:url var="updateLink" value="ProductController">
+    <c:param name="COMMAND" value="LOAD"/>
+    <c:param name="productId" value="${tempProduct.productId}"/>
+    
+    <c:url var="deleteLink" value="ProductController">
+    <c:param name="COMMAND" value="DELETE"/>
+    <c:param name="productId" value="${tempProduct.productId}"/>
+    </c:url>
+    
+    </c:url>
+    
+    <tr>
+    <td> ${tempProduct.productName } </td>
+    <td> ${tempProduct.price } </td>
+    <td> ${tempProduct.productCategory } </td>
+    <td> ${tempProduct.dateOfManufacture } </td>
+    <td> ${tempProduct.dateOfExpiry } </td>
+    <td><a href="${updateLink}">Update</a> | <a href="${deleteLink}">Delete</a></td>
+    </tr>
+    
+    </c:forEach>
+    
+
+ </table>
+ </div>
+ </div>
+ 
+</body>
+</html>

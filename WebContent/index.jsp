@@ -1,0 +1,177 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content=text/html; charset="ISO-8859-1">
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="m1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="m1/css/jquery-ui.css">
+    <link rel="stylesheet" href="m1/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="m1/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="m1/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="m1/css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="m1/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="m1/fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="m1/css/aos.css">
+    <link rel="stylesheet" href="m1/css/style.css">
+    
+  </head>
+  <body >
+  
+  <div class="site-wrap">
+
+<header class="site-navbar py-4 bg-white js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black mb-0">Shopping Store<span class="text-primary">.</span> </a></h1>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#team-section" class="nav-link">Team Members</a></li>
+                
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+     
+    <div class="site-blocks-cover overlay" style="background-image: url(m1/b1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
+                        
+            <div class="row mb-4">
+              <div class="col-md-7">
+                <h1>WELCOME</h1>
+                <p class="mb-5 lead">A Premium Shopping Store Management System</p>
+                <div>
+                  <a href="Sign-in.jsp" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 mb-lg-0 mb-2 d-block d-sm-inline-block">SIGN IN</a>
+                  <a href="registration.jsp" class="btn btn-white py-3 px-5 rounded-0 d-block d-sm-inline-block">REGISTRATION</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+
+    
+
+        
+
+
+
+    <div class="site-section border-bottom" id="team-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            
+            <h2 class="section-title mb-3">Team Members</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+            <div class="person text-center">
+              <img src="m1/p1.png" alt="Image" class="img-fluid rounded w-75 mb-3">
+              <h3>Arshdeep kaur</h3>
+              <p class="position text-muted">Team Member</p>
+              <p class="mb-4">Enrolled Id: 1610991173</p>
+              
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
+            <div class="person text-center">
+              <img src="m1/p2.png" alt="Image" class="img-fluid rounded w-75 mb-3">
+              <h3>Anvi Aggarwal</h3>
+              <p class="position text-muted">Team Member</p>
+              <p class="mb-4">Enrolled Id: 1610991157</p>
+              
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
+            <div class="person text-center">
+              <img src="m1/p4.png" alt="Image" class="img-fluid rounded w-75 mb-3">
+              <h3>Arsh Verma</h3>
+              <p class="position text-muted">Team Member</p>
+              <p class="mb-4">Enrolled Id: 1610991172</p>
+              
+            </div>
+          </div>
+		  <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="400">
+            <div class="person text-center">
+              <img src="m1/p5.png" alt="Image" class="img-fluid rounded w-75 mb-3">
+              <h3>Arshdeep Kaur</h3>
+              <p class="position text-muted">Team Member</p>
+              <p class="mb-4">Enrolled Id: 1610991174</p>
+              </div>
+            </div>
+			<div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="500">
+            <div class="person text-center">
+              <img src="m1/p6.jpg" alt="Image" class="img-fluid rounded w-75 mb-3">
+              <h3>Pushpinder Singh</h3>
+              <p class="position text-muted">Team Member</p>
+              <p class="mb-4">Enrolled Id: 1610991657</p>
+              
+            </div>
+		  
+        </div>
+		</div>
+      </div>
+    </div>
+    
+
+  
+   
+
+  </div> <!-- .site-wrap -->
+
+  <script src="m1/js/jquery-3.3.1.min.js"></script>
+  <script src="m1/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="m1/js/jquery-ui.js"></script>
+  <script src="m1/js/popper.min.js"></script>
+  <script src="m1/js/bootstrap.min.js"></script>
+  <script src="m1/js/owl.carousel.min.js"></script>
+  <script src="m1/js/jquery.stellar.min.js"></script>
+  <script src="m1/js/jquery.countdown.min.js"></script>
+  <script src="m1/js/bootstrap-datepicker.min.js"></script>
+  <script src="m1/js/jquery.easing.1.3.js"></script>
+  <script src="m1/js/aos.js"></script>
+  <script src="m1/js/jquery.fancybox.min.js"></script>
+  <script src="m1/js/jquery.sticky.js"></script>
+
+  
+  <script src="m1/js/main.js"></script>
+    
+  </body>
+</html>
